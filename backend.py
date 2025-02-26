@@ -1,4 +1,5 @@
-!pip install ms-recommenders
+import os
+os.system("pip install ms-recommenders")
 import streamlit as st
 import pandas as pd
 import numpy as np
