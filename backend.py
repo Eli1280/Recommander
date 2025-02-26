@@ -1,5 +1,10 @@
 import os
 os.system("pip install scikit-learn")
+import sys
+import os
+st.write("Python version:", sys.version)
+st.write("Python path:", sys.path)
+os.system("pip list | grep scikit-learn")
 import streamlit as st
 import pandas as pd
 import numpy as np
