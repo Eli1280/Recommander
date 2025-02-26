@@ -3,7 +3,7 @@ os.system("pip install ms-recommenders")
 import streamlit as st
 import pandas as pd
 import numpy as np
-from recommenders.models.sar.sar_singlenode import SAR
+from recommenders.models.sar import SAR
 from recommenders.utils.timer import Timer
 from sklearn.metrics.pairwise import cosine_similarity
 import seaborn as sns
